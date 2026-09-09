@@ -33,5 +33,48 @@ nav a {
     background-color: beige;
     padding:  10x 15x;
     border-radius:8px;
-    display: 
+    margin: 5px;
+    display: inline-block;
+}
+
+nav a:hover{
+    background-color: bisque;
+}
+main {
+    width: 80%;
+    margin: auto;
+}
+section{
+    background-color: aliceblue;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+}
+img{
+    width:100%
+    max-width 600px;
+    display: bliock;
+    margin: auto;
+    border-radius: 12px;
+}
+figcaption{
+    text-align: center;
+    font-size: 14px;
+    color:black;
+    margin-top: 8px;
+
+}
+card h3{
+    background-color: burlywood;
+    padding: 15px;
+    margin: 15px 0;
+    border: left 6px;
+    border: radius 10px;
+}
+card h3{
+    background-color: aqua;
+    color: azure;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
