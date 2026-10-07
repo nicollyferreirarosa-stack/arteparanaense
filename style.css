@@ -1,9 +1,9 @@
 :root{
 --cor-fundo: rgb(255, 255, 255);
 --cor-texto: black;
---cor-principal:rgba(213, 255, 136, 0.801);
---cor-secundaria:rgba(217, 245, 191, 0.808);
---cor-hover: rgba(232, 255, 210, 0.932);
+--cor-principal:rgba(213, 255, 136, 0.678);
+--cor-secundaria:rgba(169, 248, 94, 0.829);
+--cor-hover: rgba(214, 255, 175, 0.788);
 --cor-superficie:white;
 --cor-card: rgba(199, 255, 194, 0.719);
 --cor-legenda:rgb(124, 124, 120);
