@@ -1,9 +1,9 @@
 :root{
---cor-fundo: rgb(204, 255, 170);
+--cor-fundo: rgba(204, 255, 170, 0.918);
 --cor-texto: black;
---cor-principal:rgb(164, 255, 136);
---cor-secundaria:rgb(183, 228, 141);
---cor-hover: rgb(202, 252, 156);
+--cor-principal:rgba(213, 255, 136, 0.801);
+--cor-secundaria:rgba(217, 245, 191, 0.808);
+--cor-hover: rgba(232, 255, 210, 0.932);
 --cor-superficie:white;
 --cor-card: rgba(199, 255, 194, 0.719);
 --cor-legenda:rgb(124, 124, 120);
@@ -89,23 +89,23 @@ figcaption{
 }
 
 footer{
-    background-color: rgb(241, 250, 113);
+    background-color: var(--cor-rodape);
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 button {
-    background-color: rgb(253, 255, 148);
-    color: aliceblue;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     border:none;
     padding: 10px 15px;
     border-radius: 8px;
     cursor: pointer;
 }
-button:hover{
-    background-color: rgb(219, 252, 72);
-}
+    button:hover{
+        background-color: var(--cor-hover);
+    }
 .curtir {
 display: block;
 width: fit-conten;
