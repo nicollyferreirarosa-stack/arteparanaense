@@ -1,12 +1,25 @@
+:root{
+--cor-fundo: rgb(238, 238, 218);
+--cor-texto: black;
+--cor-principal:rgb(253, 255, 164);
+--cor-secundaria:rgb(255, 244, 84);
+--cor-hover: rgb(252, 245, 156);
+--cor-superficie:white;
+--cor-card: rgb(255, 245, 107);
+--cor-legenda:rgb(124, 124, 120);
+--cor-clara:white;
+--cor-rodape: rgb(254, 255, 199);
+
+}
 body {
-    background-color: rgb(247, 243, 243);
-    color: rgb(0, 0, 0);
-    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto)
+    font-family Arial,sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: rgb(118, 241, 118);
+    background-color: var(--cor-principal);
     color: white;
     text-align: center;
     padding: 30px;
@@ -17,7 +30,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(145, 253, 160);
+    color: rgb(247, 248, 175);
 }
 
 p {
@@ -30,7 +43,7 @@ nav{
 nav a {
     color:white;
     text-decoration: none;
-    background-color: beige;
+    background-color: rgb(248, 248, 162);
     padding:  10x 15x;
     border-radius:8px;
     margin: 5px;
@@ -38,7 +51,7 @@ nav a {
 }
 
 nav a:hover{
-    background-color: bisque;
+    background-color: rgb(242, 255, 128);
 }
 main {
     width: 80%;
@@ -65,8 +78,8 @@ figcaption{
 
 }
 .card{
-    background-color: #b1ffbb
-    padding: 15px;
+    background-color: #deffa8
+    padding 15px;
     margin: 15px 0;
     border-left: 6px;
     border-radius: 10px;
@@ -76,14 +89,14 @@ figcaption{
 }
 
 footer{
-    background-color: rgb(101, 248, 138);
+    background-color: rgb(241, 250, 113);
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 button {
-    background-color: rgb(197, 255, 197);
+    background-color: rgb(253, 255, 148);
     color: aliceblue;
     border:none;
     padding: 10px 15px;
@@ -91,7 +104,7 @@ button {
     cursor: pointer;
 }
 button:hover{
-    background-color: rgb(72, 252, 153);
+    background-color: rgb(219, 252, 72);
 }
 .curtir {
 display: block;
