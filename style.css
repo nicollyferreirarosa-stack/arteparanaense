@@ -1,7 +1,7 @@
 :root{
---cor-fundo: rgb(255, 255, 255);
+--cor-fundo: rgba(255, 255, 255, 0.795);
 --cor-texto: black;
---cor-principal:rgba(213, 255, 136, 0.678);
+--cor-principal:rgba(170, 255, 136, 0.425);
 --cor-secundaria:rgba(169, 248, 94, 0.829);
 --cor-hover: rgba(214, 255, 175, 0.788);
 --cor-superficie:white;
@@ -111,4 +111,6 @@ button {
 display: block;
 width: fit-conten;
 margin: 20px auto;
+
+
 }
