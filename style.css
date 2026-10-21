@@ -121,7 +121,7 @@ margin: 20px auto;
 .cards-curiosidades {
     display: flex;
     gap: 20px
-    flex-wrap wrap;
+     flex-wrap rap; 
 }
     
     
