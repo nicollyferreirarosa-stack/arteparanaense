@@ -11,6 +11,13 @@
 --cor-rodape: rgba(232, 233, 232, 0.123);
 
 }
+.btn-tema{
+    --cor-fundo:#121212;
+    --cor-texto:#f5f5f5;
+    --cor-principal:rgb(173, 247, 143);
+    --cor-surpeficie:#1e1e1e;
+    --cor-card:#2b2530;
+}
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
