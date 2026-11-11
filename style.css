@@ -1,9 +1,9 @@
 :root{
---cor-fundo: rgba(184, 184, 184, 0.795);
+--cor-fundo: rgba(184, 184, 184, 0.993);
 --cor-texto: black;
---cor-principal:rgba(94, 255, 31, 0.37);
+--cor-principal:rgba(164, 255, 128, 0.904);
 --cor-secundaria:rgba(137, 243, 38, 0.822);
---cor-hover: rgba(143, 255, 38, 0.336);
+--cor-hover: rgba(143, 255, 38, 0.212);
 --cor-superficie:white;
 --cor-card: rgba(36, 248, 17, 0.623);
 --cor-legenda:rgba(124, 124, 120, 0);
@@ -14,7 +14,7 @@
 .btn-tema{
     --cor-fundo:#121212;
     --cor-texto:#f5f5f5;
-    --cor-principal:rgba(173, 247, 143, 0.555);
+    --cor-principal:rgba(173, 247, 143, 0.322);
     --cor-surpeficie:#1e1e1e;
     --cor-card:#2b2530;
 }
